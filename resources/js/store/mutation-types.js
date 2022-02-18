@@ -1,0 +1,20 @@
+// auth.js
+export const LOGOUT = "LOGOUT";
+export const SAVE_TOKEN = "SAVE_TOKEN";
+
+export const FETCH_USER = "FETCH_USER";
+export const FETCH_USER_SUCCESS = "FETCH_USER_SUCCESS";
+export const FETCH_USER_FAILURE = "FETCH_USER_FAILURE";
+
+// task.js
+export const GET_TASKS_REQUEST = "GET_TASKS_REQUEST";
+export const GET_TASKS_SUCCESS = "GET_TASKS_SUCCESS";
+export const GET_TASKS_FAIL = "GET_TASKS_FAIL";
+
+export const UPDATE_TASK_REQUEST = "UPDATE_TASK_REQUEST";
+export const UPDATE_TASK_SUCCESS = "UPDATE_TASK_SUCCESS";
+export const UPDATE_TASK_FAIL = "UPDATE_TASK_FAIL";
+
+export const SAVE_TASK_REQUEST = "SAVE_TASK_REQUEST";
+export const SAVE_TASK_SUCCESS = "SAVE_TASK_SUCCESS";
+export const SAVE_TASK_FAIL = "SAVE_TASK_FAIL";
