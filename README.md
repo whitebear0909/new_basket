@@ -51,6 +51,9 @@ Only admin and manager can mark each task as done. user can't do that(for author
 
 ## Project structure
 
+### Tech Stack
+Laravel + Mysql + Vue.js(Bootstrap-vue)
+
 ### Backend
 
 ```
