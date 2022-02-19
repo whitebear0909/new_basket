@@ -24,7 +24,7 @@ axios.interceptors.response.use(
             Swal.fire({
                 icon: "error",
                 title: "Authentication Error",
-                text: "You don't have permission for this operation",
+                text: "You are not Authenticated.",
             });
             this.$router.push({ name: "signin" });
         }

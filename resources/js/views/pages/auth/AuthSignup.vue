@@ -167,15 +167,6 @@
                 </div>
             </div>
             <!-- END Sign Up Section -->
-
-            <!-- Footer -->
-            <div class="font-size-sm text-center text-muted py-3">
-                <strong>{{
-                    $store.getters.appName + " " + $store.getters.appVersion
-                }}</strong>
-                &copy; {{ $store.getters.appCopyright }}
-            </div>
-            <!-- END Footer -->
         </div>
     </div>
     <!-- END Page Content -->
